@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikhil | AI Engineer & Developer</title>
+  <meta name="description" content="Portfolio of Nikhil – AI Engineer showcasing cutting-edge AI projects, skills, and capabilities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="logo-icon"><i class="fa-solid fa-atom"></i></div>
+        <span>unik<span class="accent">AI</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <div class="hero-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi there, I am</p>
+        <h1 class="hero-name">Nikhil<br /><span class="accent">AI Engineer</span></h1>
+        <p class="hero-title typing-text" id="typingText"></p>
+        <p class="hero-desc">Crafting intelligent systems that think, learn, and create. Specialising in generative AI, LLMs, and machine learning solutions that transform ideas into real-world impact.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num" data-target="30">0</span><span>+</span><p>Projects</p></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="15">0</span><span>+</span><p>AI Models</p></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="5">0</span><span>+</span><p>Years Exp.</p></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <div class="orbit-ring ring-1"></div>
+          <div class="orbit-ring ring-2"></div>
+          <div class="orbit-dot dot-1"><i class="fa-brands fa-python"></i></div>
+          <div class="orbit-dot dot-2"><i class="fa-solid fa-brain"></i></div>
+          <div class="orbit-dot dot-3"><i class="fa-solid fa-robot"></i></div>
+          <div class="orbit-dot dot-4"><i class="fa-solid fa-microchip"></i></div>
+          <div class="hero-avatar">
+            <div class="avatar-glow"></div>
+            <img src="assets/profile.png" alt="Nikhil - AI Engineer" id="profileImg" onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='flex'" />
+            <div class="avatar-fallback" id="avatarFallback">
+              <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-card-visual">
+            <div class="about-blob"></div>
+            <div class="about-img-frame">
+              <i class="fa-solid fa-user-astronaut about-icon"></i>
+            </div>
+            <div class="floating-badge badge-1"><i class="fa-solid fa-star"></i> AI Specialist</div>
+            <div class="floating-badge badge-2"><i class="fa-solid fa-code"></i> Full Stack</div>
+          </div>
+        </div>
+        <div class="about-content">
+          <h3>Building the Future with <span class="accent">Artificial Intelligence</span></h3>
+          <p>I'm an AI Engineer and developer passionate about pushing the boundaries of what's possible with machine learning and generative AI. I specialise in building intelligent applications that solve real problems.</p>
+          <p>From fine-tuning large language models to building end-to-end AI pipelines, I bring deep technical expertise and creative thinking to every project. My work spans NLP, computer vision, and autonomous AI agents.</p>
+          <div class="about-info-grid">
+            <div class="info-item"><span class="info-label">Name</span><span class="info-val">Nikhil</span></div>
+            <div class="info-item"><span class="info-label">GitHub</span><span class="info-val">unik333</span></div>
+            <div class="info-item"><span class="info-label">Specialty</span><span class="info-val">Generative AI</span></div>
+            <div class="info-item"><span class="info-label">Available</span><span class="info-val available">✔ Open to Work</span></div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Let's Collaborate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">AI <span class="accent">Capabilities</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card" data-delay="0">
+          <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Large Language Models</h3>
+          <p>GPT-4, Claude, Gemini, LLaMA — fine-tuning, prompt engineering, RAG systems and API integrations.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          <span class="skill-pct">95%</span>
+        </div>
+        <div class="skill-card" data-delay="100">
+          <div class="skill-icon"><i class="fa-solid fa-image"></i></div>
+          <h3>Generative AI & Vision</h3>
+          <p>Stable Diffusion, DALL·E, MidJourney workflows, ControlNet, and multimodal AI applications.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-card" data-delay="200">
+          <div class="skill-icon"><i class="fa-solid fa-robot"></i></div>
+          <h3>AI Agents & Automation</h3>
+          <p>LangChain, AutoGen, CrewAI — building autonomous multi-agent systems and intelligent workflows.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          <span class="skill-pct">88%</span>
+        </div>
+        <div class="skill-card" data-delay="300">
+          <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+          <h3>Machine Learning</h3>
+          <p>Scikit-learn, TensorFlow, PyTorch — training, evaluating, and deploying ML models at scale.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          <span class="skill-pct">92%</span>
+        </div>
+        <div class="skill-card" data-delay="400">
+          <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+          <h3>Vector Databases & RAG</h3>
+          <p>Pinecone, Weaviate, ChromaDB — semantic search and retrieval-augmented generation pipelines.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-card" data-delay="500">
+          <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+          <h3>MLOps & Deployment</h3>
+          <p>Docker, FastAPI, AWS, GCP — end-to-end ML pipelines and model serving infrastructure.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+          <span class="skill-pct">82%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+        <p class="section-sub">Live projects pulled from GitHub</p>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <div class="projects-loading" id="projectsLoading">
+          <div class="spinner"></div>
+          <p>Fetching projects from GitHub…</p>
+        </div>
+      </div>
+      <div class="projects-cta">
+        <a href="https://github.com/unik333" target="_blank" class="btn btn-outline">
+          <i class="fa-brands fa-github"></i> View All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Offer</span>
+        <h2 class="section-title">My <span class="accent">Services</span></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>AI Product Development</h3>
+          <p>End-to-end AI product design and development — from ideation to production-ready deployment.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3>LLM Integration & Chatbots</h3>
+          <p>Custom GPT-powered chatbots, voice assistants, and conversational AI for your business.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>AI Strategy & Consulting</h3>
+          <p>Roadmapping AI adoption, identifying automation opportunities, and ROI-focused AI strategy.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <div class="service-icon"><i class="fa-solid fa-eye"></i></div>
+          <h3>Computer Vision Solutions</h3>
+          <p>Object detection, image classification, OCR, and custom vision pipelines for your use case.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <div class="service-icon"><i class="fa-solid fa-gear"></i></div>
+          <h3>AI Automation & Agents</h3>
+          <p>Autonomous agent workflows that handle complex tasks, research, and multi-step processes.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <div class="service-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>AI Training & Workshops</h3>
+          <p>Hands-on training sessions to upskill your team on the latest AI tools and frameworks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's Build Something <span class="accent">Amazing</span></h3>
+          <p>Whether you have a project in mind, need AI consulting, or just want to talk tech — my inbox is always open.</p>
+          <div class="contact-links">
+            <a href="https://github.com/unik333" target="_blank" class="contact-link">
+              <div class="contact-link-icon"><i class="fa-brands fa-github"></i></div>
+              <div><span>GitHub</span><p>github.com/unik333</p></div>
+            </a>
+            <a href="mailto:hello@unik333.dev" class="contact-link">
+              <div class="contact-link-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div><span>Email</span><p>hello@unik333.dev</p></div>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-link">
+              <div class="contact-link-icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div><span>LinkedIn</span><p>Connect with me</p></div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="formName" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="formEmail" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="formSubject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea id="formMessage" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="nav-logo">
+          <div class="logo-icon"><i class="fa-solid fa-atom"></i></div>
+          <span>unik<span class="accent">AI</span></span>
+        </a>
+        <p>Building intelligent systems for a smarter world.</p>
+        <div class="footer-socials">
+          <a href="https://github.com/unik333" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 unikAI — All rights reserved.</p>
+        <p>Built with <span class="accent">♥</span> & AI</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
